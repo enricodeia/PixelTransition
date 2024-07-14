@@ -30,7 +30,7 @@ images.forEach((image, position) => {
 
         // Animate intro section
         gsap.to(intro, {
-            duration: 0.7,
+            duration: 0.2,
             ease: 'power2.in',
             startAt: {filter: 'brightness(100%) saturate(100%)'},
             filter: 'brightness(800%) saturate(600%)',
